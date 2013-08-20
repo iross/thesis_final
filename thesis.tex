@@ -1,0 +1,148 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% The uwthesis.sty file relies on the memoir class!
+%%%% You should be using the memoir class anyway; it makes life easier:
+%%%% http://www.ctan.org/tex-archive/macros/latex/contrib/memoir/
+\documentclass[oneside, letterpaper, 12pt, oldfontcommands]{memoir}
+%%%% Import uwthesis.sty to get official formatting, then set your variables.
+\usepackage{uwthesis}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{rotating} % for sidewaystable
+\usepackage{feynmp}
+\usepackage{xspace}
+\usepackage{amsmath}
+\usepackage{helpers}
+\usepackage{hyperref}
+\usepackage[labelfont={bf,it},font={it}]{caption}
+\DeclareGraphicsRule{.1}{mps}{*}{} %feynmp crap has .1 extension for some reason
+\DeclareGraphicsExtensions{%
+    .pdf,.PDF,% use PDFs first!
+    .png,.PNG,%
+    .jpg,.mps,.jpeg,.jbig2,.jb2,.JPG,.JPEG,.JBIG2,.JB2}
+
+\graphicspath{ {figs/} {figs/BGs/} {figs/unfolded/} {figs/results/} }
+
+\settitle{Discovery of the Higgs Boson and a Search for Beyond the Standard Model Physics in ZZ
+Decays using the CMS Detector at the LHC}
+\setauthor{Ian Ross}
+\setdepartment{Physics}
+\doctors % or \masters
+\setgraddate{2013}
+\setdefensedate{8.August.2013} % or whatever format you want
+
+%%%% Members of the Final Oral Committee (FOC)
+%%%% Give name, rank, and department
+%%%% 
+\setfoca{Sridhara Dasu}{Professor}{Physics} % <- Your advisor
+\setfocb{Wesley Smith}{Bjorn Wiik Professor}{Physics}
+\setfocc{Matt Herndon}{Professor}{Physics}
+\setfocd{Vernon Barger}{Vilas Professor}{Physics}
+\setfoce{Terry Millar}{Professor}{Mathematics}
+
+%%%% Your abstract, used for the UMI abstract and in your front matter
+\setabstract{%
+
+A study of the $pp \rightarrow ZZ \rightarrow \ell\ell\ell\ell$ final state is
+conducted using 19.6~\fbinv of 8 TeV proton-proton collisions at the LHC using the CMS
+detector. The Standard Model $pp \rightarrow ZZ$ production cross section is
+measured to be 
+%$\sigma(pp\rightarrow ZZ) = 
+$7.7^{+0.5}_{-0.5} \textrm(stat.) ^{+0.6}_{-0.5}
+\textrm{(sys.)}  \pm 0.3 \textrm{(lumi)}~\textrm{pb} $. Evidence of a new
+Higgs-like boson is observed with a significance of $6.1 \sigma$ at 126~GeV.
+95\% confidence level upper limits are set on the neutral anomalous triple gauge
+couplings; $-0.004 < f_4^Z < 0.004$, $-0.005 < f_4^{\gamma} < 0.005$, $-0.004 <
+f_5^Z < 0.004$, and $-0.005 < f_5^{\gamma} < 0.005$.
+
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Tell the memoir class to set up lowercase roman for pagination, etc.
+\frontmatter
+
+%%%% Uncomment this to create a UMI abstract page.
+%%%% If you are submitting electronically, however, this page is unnecessary.
+% \theumiabstract
+
+% The title page
+\thetitlepage
+\clearpage
+
+% The copyright page, if you want to pay the fee and register copyright.
+%\thecopyrightpage
+%\cleardoublepage
+
+% These above pages should not be counted, so we reset the counter to 1.
+\setcounter{page}{1}
+
+% An abstract may be required by your department.
+\section{Abstract}
+\uwabstract
+\cleardoublepage
+
+% Acknowledgements go here if you want to include them.
+\section{Acknowledgements}
+Acknowledgement is owed to many, and I deeply apologize for those who I've
+left off this list (it's not intentional, I promise). Many thanks:
+
+To Sridhara Dasu, Wesley Smith, and Matt Herndon for their endless support,
+knowledge, and bountiful advice.
+
+To Sascha Savin, for his patience, help, and ideas.
+
+To Evan Friis and Maria Cepeda, for their wisdom and friendship.
+
+To my fellow UW CMS students, past and present, for the support (be it
+programming, physics, RCT, or life-related), and all the good times. Marc
+Weinberg, Kira Grogg, Michalis Bachtis, Christos Lazaridis, Mike Anderson, Jeff
+Klukas, Lindsey Gray, Jessica Leonard, Joshua Swanson, Isobel Ojalvo, Austin
+Belknap, and all the rest -- I owe pieces of this work to each of you.
+
+To my friends, in Madison and beyond, for always being there for me, even when
+I was an ocean away.
+
+To the HZZ4L Group, whose collective efforts are reflected in my work.
+
+And to my family: my sister, Cameron, and my parents, Doug and Judy, for their
+support and love. I couldn't have done it without you.
+
+
+\clearpage
+
+% Table of contents
+\maxtocdepth{subsection}
+\tableofcontents* % the * means that there isn't an entry for the TOC itself
+\clearpage
+\listoffigures  % if you have any figures
+\clearpage
+\listoftables   % if you have any tables
+
+% Tell the memoir class to set up normal pagination, etc. for the main doc
+\mainmatter
+
+\setcounter{secnumdepth}{2} %allow subsubsection references
+
+\input{Introduction}
+\input{sm}
+\input{previous}
+\input{expOverview}
+\input{eventGenSim}
+\input{eventReco}
+\input{analysis}
+\input{results}
+\input{conclusions}
+
+
+\bibliography{bibliography}{}
+\bibliographystyle{unsrt}
+
+\end{document}

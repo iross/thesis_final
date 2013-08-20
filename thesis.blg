@@ -1,0 +1,118 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+Case mismatch error between cite keys cms:HiggsObs and CMS:higgsObs
+---line 112 of file thesis.aux
+ : \citation{cms:HiggsObs
+ :                       ,atlas:HiggsObs}
+I'm skipping whatever remains of this command
+The style file: unsrt.bst
+Database file #1: bibliography.bib
+I was expecting a `,' or a `}'---line 118 of file bibliography.bib
+ :     
+ :     journal = {Physics Reports},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--string name "scholarpedia" is undefined
+--line 611 of file bibliography.bib
+Too many commas in name 1 of "The ALEPH Collaboration, The DELPHI Collaboration, The L3 Collaboration, The OPAL Collaboration, The SLD Collaboration, The LEP Electroweak Working Group, The SLD Electroweak and Heavy Flavour Groups" for entry lepSLD:zPhys
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "The ALEPH Collaboration, The DELPHI Collaboration, The L3 Collaboration, The OPAL Collaboration, The SLD Collaboration, The LEP Electroweak Working Group, The SLD Electroweak and Heavy Flavour Groups" for entry lepSLD:zPhys
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "The ALEPH Collaboration, The DELPHI Collaboration, The L3 Collaboration, The OPAL Collaboration, The SLD Collaboration, The LEP Electroweak Working Group, The SLD Electroweak and Heavy Flavour Groups" for entry lepSLD:zPhys
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "The ALEPH Collaboration, The DELPHI Collaboration, The L3 Collaboration, The OPAL Collaboration, The SLD Collaboration, The LEP Electroweak Working Group, The SLD Electroweak and Heavy Flavour Groups" for entry lepSLD:zPhys
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in lepSLD:zPhys
+Warning--empty year in lepSLD:zPhys
+Warning--empty institution in Grunewald:1313716
+Warning--empty journal in fnal:higgs
+Warning--empty journal in ATLAS:higgsProperties
+Warning--empty author in CMS:higgsProperties
+Warning--empty journal in CMS:higgsProperties
+Warning--empty title in ALEPH
+Warning--empty title in DELPHI
+Warning--empty title in OPAL
+Warning--empty journal in LEPWG
+Warning--empty title in L3
+Warning--empty title in D0
+Warning--empty journal in CDF
+Warning--empty author in ATLAS
+Warning--empty journal in ct10
+Warning--empty journal in hadronization
+Warning--empty journal in gg2zz
+Warning--empty journal in cmsdetAnnealing
+Warning--can't use both volume and number fields in vertexFitting
+Warning--empty journal in gsfElectrons
+Warning--empty author in pflow
+Warning--all relevant fields are empty in BDTs
+Warning--empty author in elePerformance
+Warning--empty journal in elePerformance
+Warning--empty author in zzHiggsMoriond
+Warning--empty year in HggRegression
+Warning--empty author in pflowMuons
+Warning--empty year in rochester
+Warning--empty year in zzAN
+Too many commas in name 1 of "P. Avery, M. Chen, A. Drozdetskiy, A. Korytov, G. Mitselmakher, M. Snowball" for entry higgsSigShape
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "P. Avery, M. Chen, A. Drozdetskiy, A. Korytov, G. Mitselmakher, M. Snowball" for entry higgsSigShape
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "P. Avery, M. Chen, A. Drozdetskiy, A. Korytov, G. Mitselmakher, M. Snowball" for entry higgsSigShape
+while executing---line 944 of file unsrt.bst
+Warning--empty year in higgsSigShape
+Warning--empty journal in lhcHiggsHandbook
+Warning--empty journal in PDF4LHC
+Too many commas in name 1 of "A. Dabrowski, M. Grothe, P. Hebda, J.Hegeman, D. Marlow, N. Odell, D. Stickland, A. Zuranski" for entry lumi
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "A. Dabrowski, M. Grothe, P. Hebda, J.Hegeman, D. Marlow, N. Odell, D. Stickland, A. Zuranski" for entry lumi
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "A. Dabrowski, M. Grothe, P. Hebda, J.Hegeman, D. Marlow, N. Odell, D. Stickland, A. Zuranski" for entry lumi
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "A. Dabrowski, M. Grothe, P. Hebda, J.Hegeman, D. Marlow, N. Odell, D. Stickland, A. Zuranski" for entry lumi
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "A. Dabrowski, M. Grothe, P. Hebda, J.Hegeman, D. Marlow, N. Odell, D. Stickland, A. Zuranski" for entry lumi
+while executing---line 944 of file unsrt.bst
+Warning--empty year in lumi
+Warning--empty author in higgsStats
+You've used 80 entries,
+            1791 wiz_defined-function locations,
+            925 strings with 16643 characters,
+and the built_in function-call counts, 16874 in all, are:
+= -- 1381
+> -- 849
+< -- 9
++ -- 320
+- -- 240
+* -- 1236
+:= -- 2804
+add.period$ -- 230
+call.type$ -- 80
+change.case$ -- 73
+chr.to.int$ -- 0
+cite$ -- 115
+duplicate$ -- 723
+empty$ -- 1603
+format.name$ -- 240
+if$ -- 3642
+int.to.chr$ -- 0
+int.to.str$ -- 80
+missing$ -- 75
+newline$ -- 392
+num.names$ -- 72
+pop$ -- 164
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 311
+stack$ -- 0
+substring$ -- 1039
+swap$ -- 98
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 35
+while$ -- 139
+width$ -- 82
+write$ -- 832
+(There were 14 error messages)

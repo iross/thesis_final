@@ -1,0 +1,309 @@
+\chapter{The Standard Model and Beyond}
+\label{chapter:sm}
+The Standard Model, the theoretical framework which describes fundamental
+particles and their interactions, has a history rooted in the early-to-mid
+twentieth century. At its core are two basic groups of particles,
+\emph{fermions} and \emph{bosons}, along with four fundamental forces governing
+their interactions. Throughout its growth over the last eighty years (as
+outlined in~\ref{sec:history}), the Standard Model has proven to be an
+incredibly successful theory, with measurements validating its predictions to a
+phenomenal accuracy \temp CITE? \temp. Despite its unprecedented level of
+success, however, the Standard Model presents an incomplete model of the
+universe, as described in~\ref{sec:shortcomings}, and the search continues for
+physics that falls outside of the realm of the theory (\ref{sec:beyond}).
+
+\section{History and Overview} \label{sec:history}
+\temp Merge this into the other sections? Seems sort of useless \temp
+
+The Standard Model is an attempt to unify the most basic physical interactions
+into one overarching framework.  The concept of such a grand unification can be
+traced back to Einstein and beyond, but it is only in the last sixty years that
+the effort has really taken shape. 
+
+The concept that interactions between fundamental particles can be
+attributed to mathematical constructs called fields has bases tracing back to
+Maxwell's formalism of electromagnetism, but it was Feynman who first extended
+this formalism to the quantum world~\cite{Feynman:1950tx}. In his theory of
+quantum electrodynamcs (QED), he successfully described the electromagnetic
+interactions between particles as an exchange of massless particles called
+photons. These particles and the force are explained in further detail
+in~\ref{sub:funpart} and~\ref{sub:forces} respectively.
+
+The weak force, carried by \W and \Z bosons, is responsible for those
+interactions between fermions that involve charge and flavor changing (such as a
+nucleus undergoing $\beta^{-} $ decay through the \Wm-mediated decay
+\begin{equation*}
+d \rightarrow u + e^{-} + \overline{\nu_{e}}
+\end{equation*}
+
+In the 1960s, Sheldon Glashow and others crafted a theory of Gauge bosons which
+united the electromagnetic and weak forces \cite{Glashow:1961wk}. The
+`unification' in this theory is the idea that the two forces, which are separate
+and distinct at lower energies, become one force at energies of $O(100 GeV)$.
+
+The third fundamental force, the strong force, describes the interactions
+between \emph{quarks} and \emph{gluons}. These are the fundamental particles
+(further described in~\ref{sub:funpart}) which make up nuclear matter. The
+theory of these interactions, known as quantum chromodynamics, was formulated by
+Murray Gell-Mann and others in the 1960s \temp(CITE)\temp
+
+\subsection{Fundamental Particles} 
+\label{sub:funpart}
+There are two types of fundamental particles, \emph{fermions} and \emph{bosons}.
+Ordinary matter is made up of \emph{fermions}, which carry half-integer spin.
+Fermions can be further split into two sub-classes: quarks and leptons.  Quarks
+are then classified into three generations of doublets, each generation
+consisting of an "up-type" quark with charge $+2/3$ and a ``down-type'' quark
+with charge $-1/3$. Quarks are never observed `alone' in nature, due to the laws
+of quantum chromodynamics, as explained in~\ref{sub:forces}. Quarks are
+susceptible to all three of the fundamental forces included in the Standard
+Model. Via the strong force, quarks form composite color-neutral particles known
+as \emph{hadrons}, either in pairs (forming mesons), or in triplets (forming
+baryons). Protons and neutrons are the most familiar particle in the hadron
+family and are composed of two up-quarks and a down quark or two down-quarks and
+an up-quark respectively.
+
+Leptons, the other type of fermion, differ in the fact that leptons carry no
+color charge. As a result, they do not participate in any strong interactions.
+However, the do participate in both electromagnetic (if charged) and weak
+interactions. Like quarks, the lepton family is split into three generations,
+consisting of the generational type (electron, muon, or tau -- \E, \M, or \T)
+plus the doublet partner neutrino. 
+
+\temp handedness? \temp
+
+Both quarks and leptons carry isospin charge in addition 
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{5}{|c|}{Generation 1} \\
+\hline
+Particle & Mass (eV/c$^2$) & Charge & T$^{3}$ & Forces\\
+\hline
+\E          &  5.11$\times$10$^5$   & $\pm 1$        & $+\frac{1}{2}$   & Electromagnetic, weak\\
+$\nu_{e}$   &  $<$2.2               & 0              & $-\frac{1}{2}$   & Weak\\
+u           &  $2.3\times10^6$      & $+\frac{2}{3}$ & $+\frac{1}{2}$   & Electromagnetic, weak, strong\\
+d           &  $4.8\times10^6$      & $-\frac{1}{3}$ & $-\frac{1}{2}$   & Electromagnetic, weak, strong\\
+\hline
+\hline
+\multicolumn{5}{|c|}{Generation 2} \\
+\hline
+Particle & Mass (eV/c$^2$) & Charge & T$^{3}$ & Forces\\
+\hline
+\M          & $1.05 \times10^8$     & $\pm 1$           & $+\frac{1}{2}$ & Electromagnetic, weak\\
+$\nu_{\mu}$ & $< 1.70\times10^5$    & 0                 & $-\frac{1}{2}$ & Weak\\
+c           & $1.3\times10^9$       & $+\frac{2}{3}$    & $+\frac{1}{2}$ & Electromagnetic, weak, strong\\
+s           & $9.5\times10^7$       & $-\frac{1}{3}$    & $-\frac{1}{2}$ & Electromagnetic, weak, strong\\
+\hline
+\hline
+\multicolumn{5}{|c|}{Generation 3} \\
+\hline
+Particle & Mass (eV/c$^2$) & Charge & T$^{3}$ & Forces\\
+\hline
+\T          & $1.77\times10^9$      & $\pm 1$           & $+\frac{1}{2}$ & Electromagnetic, weak\\
+$\nu_{\tau}$& $< 1.55\times10^7$    & 0                 & $-\frac{1}{2}$ & Weak\\
+t           & $1.74\times10^{11}$   & $+\frac{2}{3}$    & $+\frac{1}{2}$ & Electromagnetic, weak, strong\\
+b           & $4.2\times10^9$       & $-\frac{1}{3}$    & $-\frac{1}{2}$ & Electromagnetic, weak, strong\\
+\hline
+\end{tabular}
+\caption{A summary of the generations of fermions and their mass, charge, weak
+isospin ($T^{3}$ and the forces which act on them. Nota bene: all right-handed
+particles have weak 0 isospin ($T^{3}=0$)}
+\label{tab:fermions}
+\end{table}
+
+Integer- (or zero-) spin particles known as \emph{bosons} are the particles which
+act as force-carriers, as described in~\ref{sub:forces}.  The most common of
+these, the photon, is a massless spin-0 particle responsible for governing the
+electromagnetic interactions between charged particles.  The \W and \Z bosons
+carry the weak force and have charges of $\pm$ 1 and 0 respectively. 
+The bosons are summarized in Table~\ref{tab:bosons}.  Gluons, the carriers of
+the strong force, are, like photons, electrically neutral and massless. Unlike
+the other force-carriers, however, the gluon carries a unit of color and
+anti-color, meaning that it is able to self-interact. The implications of this
+property are discussed in~\ref{sub:forces}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{5}{|c|}{Bosons} \\
+\hline
+Particle & Mass (eV/c$^2$) & Charge & T$^{3}$ & Forces\\
+\hline
+\Z & $91.2 \times 10^9$ & 0 & 0  & Weak\\
+\W & $80.4 \times 10^9$ & $\pm 1$ & $\pm 1$ & Weak\\ 
+\photon & 0 & 0 & 0 & Electromagnetic\\ 
+g & 0 & 0 & 0 & Strong\\
+\hline
+\end{tabular}
+\caption{A list of the bosons \temp}
+\label{tab:bosons}
+\end{table}
+
+\subsection{Fundamental Forces}
+\label{sub:forces}
+[[INTRO HERE]]
+[[EM]]
+[[WEAK]]
+
+
+Both the weak and electromagnetic forces have interactions which are governed 
+by probability amplitudes of the form:
+\begin{equation*}
+    \frac{g^4}{q^2c^2-m^2c^4}^2
+\end{equation*}
+where g is the force's coupling constant, q the momentum transfer of the
+interaction, and m the mediating boson's mass. At higher energies (where the
+mass of the force-carrying bosons is dwarfed by the momenta of the particles),
+the form of the two forces become identical (and their relative strengths
+approach equality), suggesting a unification should be possible between the two.
+
+
+Sheldon Glashow \cite{Glashow:1961wk} proposed  restructuring the forces into an
+\ewk algebra.
+
+Within this algebraic structure, the SU(2) operations act only upon the fermions
+with left-handed \emph{chirality}, while the U(1) operations act on those
+particles which carry hypercharge, Y. This quantum number relates to the
+electrical charge, Q, and $T^3$ isospin componsent through the relation
+\begin{equation*}
+    Y = 2(Q-T^3)
+\end{equation*}
+
+\subsubsection{Electroweak Symmetry Breaking}
+The natural question, giving the unification between the electromagnetic and
+weak forces at higher energies is: what causes the two to separate into distinct
+forces at lower energies? It is clear that the difference is in the masses of
+the force-carrying bosons, but there must be some physical process which gives
+rise to the masses of the \W and \Z bosons, breaking the symmetries apparent in
+the unified elecroweak structure.
+
+The mechanism for this symmetry breaking was proposed independently by
+Higgs~\ref{PhysRevLett.13.508}, Englert and Brout~\ref{PhysRevLett.13.321}, and
+Guralnik, Hagen, and Kibble~\ref{PhysRevLett.13.585}. The mechanism adds a Higgs
+doublet to the electroweak model
+\begin{equation*}
+    \phi \equiv \left( \begin{array}{c} \phi^+ \\ \phi^0 \end{array} \right)
+\end{equation*}
+Adding to the potential terms of the form
+\begin{equation*}
+    V(\phi) = \mu^2\phi^\dagger\phi + \frac{\lambda^2}{2}(\phi^\dagger\phi)^2
+\end{equation*}
+For $\mu<0$, this potential produces a degenerate set of minimal values and
+gives the Higgs field $\phi$ a non-zero vaccuum expectation value. This non-zero
+values instills particles with mass through \temp MAGIC \temp.
+
+Although this mechanism neatly explains how mass arises in certain facets of the
+electroweak structure, it is only very recently that a particle resembling the
+Higgs boson has been observed \temp cite \temp, and it has yet to be
+conclusively shown whether the observed boson is the Standard Model Higgs or if
+it is a Standard Model-like piece of another model. And, as explained
+in~\ref{sub:shortcomings} there are certain aspects of the mechanism that are
+left wanting.
+
+[[STRONG]]
+Because of the gluons' ability to interact with itself, the strong force is
+unique in a number of respects. Most notably, the strong force grows stronger as
+separation distance between color-charged particles increases. When a quark
+sufficiently separates from another (\temp distance?), the resulting energy is
+enough for other quark-antiquark pairs to pop into existence from the vaccuum.
+The original quark then combines with these particles. This process, called
+hadronization, is the reason that quarks are never observed in an unbound form
+in nature. 
+
+In the algebraic formulation of the Standard Model, the strong force
+is represented by a \strong algebra, where C is indicative of the three color
+charges (red, green, and blue). In any strong interaction, color must be
+conserved, either through adding color and anticolor or one each of the red-
+blue- and green- type particles (or anti-red, anti-blue, and anti-green-).
+
+
+
+\section{Diboson Production} Within the Standard Model, a pair of Z bosons can be
+produced at the LHC either through quark-antiquark interactions or through gluon
+interactions (involving a quark loop)~\ref{fig:zzprod}. Because the standard model
+prohibits $ZZZ$ (or $ZZ\gamma$) vertices, there is no s-channel contribution to the ZZ
+production process, as diagrammed in~\ref{fig:zzatgc}. Any indications that such
+couplings have non-zero values would be an immediate signal of physics
+beyond the standard model.
+
+\begin{figure}[h]
+\centering
+
+\unitlength = 1mm
+\subfloat{
+\begin{fmffile}{qq}
+    \begin{fmfgraph}(50,30)
+        \fmfleft{i1,i2}
+    \fmfright{o1,o2}
+    \fmf{fermion}{i2,v2}
+    \fmf{fermion}{v2,v1}
+    \fmf{fermion}{v1,i1}
+    \fmf{photon}{v1,o1}
+    \fmf{photon}{v2,o2}
+    \end{fmfgraph}
+    \end{fmffile}
+}
+\subfloat{
+    \begin{fmffile}{gg}
+    \begin{fmfgraph}(50,30)
+        \fmfleft{i3,i4}
+    \fmfright{o3,o4}
+    \fmf{gluon}{i4,v4}
+    \fmf{gluon}{i3,v3}
+    \fmf{fermion}{v3,v4}
+    \fmf{fermion}{v4,v5}
+    \fmf{fermion}{v5,v6}
+    \fmf{fermion}{v6,v3}
+    \fmf{photon}{v6,o3}
+    \fmf{photon}{v5,o4}
+    \end{fmfgraph}
+    \end{fmffile}
+}
+\caption{Production of a ZZ diboson system in the LHC, through qq (left) and gg
+production (right)}
+\label{fig:zzprod}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\unitlength = 1mm
+\subfloat{
+    \begin{fmffile}{atgc}
+    \begin{fmfgraph}(50,30)
+        \fmfleft{i6,i5}
+    \fmfright{o5,o6}
+    \fmf{fermion}{i5,v7}
+    \fmf{fermion}{v7,i6}
+    \fmf{photon}{v7,v8}
+    \fmfblob{0.16w}{v8}
+    \fmf{photon}{v8,o5}
+    \fmf{photon}{v8,o6}
+    \end{fmfgraph}
+    \end{fmffile}
+}
+\caption{The SM-forbidden neutral triple vertex.}
+\label{fig:zzatgc}
+\end{figure}
+
+
+
+\section{Shortcomings}
+\label{sec:shortcomings}
+Despite its great successes, the Standard Model is known to be at best an
+incomplete theory. It falls short at being a perfectly unified theory, as it has
+little to say about the fourth fundamental force: gravity. Attemptes to unify
+the Standard Model as it stands today with gravitational forces prove incredibly
+difficult, as the gravitational force is several orders of magnitude weaker at
+the scale of particle interactions.
+
+\temp Dark energy, dark matter \temp
+
+\section{Physics Beyond the Standard Model}
+\temp (bosonic self-interactions and what they mean to BSM physics)\temp
+\label{sec:beyond}
+\subsection{Neutral Triple Gauge Couplings}

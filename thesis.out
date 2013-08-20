@@ -1,0 +1,78 @@
+\BOOKMARK [1][-]{section*.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{section*.2}{Acknowledgements}{}% 2
+\BOOKMARK [0][-]{section*.3}{List of Figures}{}% 3
+\BOOKMARK [0][-]{section*.4}{List of Tables}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
+\BOOKMARK [0][-]{chapter.2}{The Standard Model and Beyond}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Overview}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{Fundamental Particles}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{Fundamental Forces}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.3}{Electroweak Symmetry Breaking}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{Proton-proton collisions}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Diboson Production}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.4}{Shortcomings}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.5}{Physics Beyond the Standard Model}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.5.1}{Neutral Triple Gauge Couplings}{section.2.5}% 15
+\BOOKMARK [0][-]{chapter.3}{Previous Results}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Observations and properties of the Z0 boson}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.2}{Diboson Production}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.3}{Higgs Limits}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.4}{Higgs Searches at the Large Hadron Collider}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.5}{Searches for neutral triple gauge couplings}{chapter.3}% 21
+\BOOKMARK [0][-]{chapter.4}{Experimental Overview of the LHC and CMS}{}% 22
+\BOOKMARK [1][-]{section.4.1}{Definitions of Terminology}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{The Large Hadron Collider}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.3}{The Compact Muon Solenoid detector}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.3.1}{Tracker}{section.4.3}% 26
+\BOOKMARK [2][-]{subsection.4.3.2}{Electromagnetic Calorimeter}{section.4.3}% 27
+\BOOKMARK [2][-]{subsection.4.3.3}{Hadronic Calorimeter}{section.4.3}% 28
+\BOOKMARK [2][-]{subsection.4.3.4}{The Magnet}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.5}{Muon chambers}{section.4.3}% 30
+\BOOKMARK [2][-]{subsection.4.3.6}{Data Acquisition and Trigger}{section.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.3.7}{L1 Trigger System}{section.4.3}% 32
+\BOOKMARK [2][-]{subsection.4.3.8}{HLT System}{section.4.3}% 33
+\BOOKMARK [0][-]{chapter.5}{Event Generation and Simulation}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Monte Carlo Simulation}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{Parton Showering}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.3}{Pile-up}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.4}{Generator Software}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.5}{Samples used}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.6}{Detector Simulation}{chapter.5}% 40
+\BOOKMARK [0][-]{chapter.6}{Event Reconstruction}{}% 41
+\BOOKMARK [1][-]{section.6.1}{Vertex and Track Reconstruction}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.2}{Electron Reconstruction}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.3}{Muon Reconstruction}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.4}{Particle Flow}{chapter.6}% 45
+\BOOKMARK [0][-]{chapter.7}{Analysis Strategy}{}% 46
+\BOOKMARK [1][-]{section.7.1}{Online Selection}{chapter.7}% 47
+\BOOKMARK [1][-]{section.7.2}{Lepton Definitions}{chapter.7}% 48
+\BOOKMARK [2][-]{subsection.7.2.1}{Isolation}{section.7.2}% 49
+\BOOKMARK [2][-]{subsection.7.2.2}{Impact Parameter Requirements}{section.7.2}% 50
+\BOOKMARK [2][-]{subsection.7.2.3}{Electrons}{section.7.2}% 51
+\BOOKMARK [2][-]{subsection.7.2.4}{Muons}{section.7.2}% 52
+\BOOKMARK [2][-]{subsection.7.2.5}{Scale factors}{section.7.2}% 53
+\BOOKMARK [1][-]{section.7.3}{Pile-up Reweighing}{chapter.7}% 54
+\BOOKMARK [1][-]{section.7.4}{Background Estimation}{chapter.7}% 55
+\BOOKMARK [1][-]{section.7.5}{Final State Radiation Recovery}{chapter.7}% 56
+\BOOKMARK [1][-]{section.7.6}{Kinematic Discriminant}{chapter.7}% 57
+\BOOKMARK [1][-]{section.7.7}{Final event selection}{chapter.7}% 58
+\BOOKMARK [2][-]{subsection.7.7.1}{Candidate combinatorics and arbitration}{section.7.7}% 59
+\BOOKMARK [2][-]{subsection.7.7.2}{Signal selection}{section.7.7}% 60
+\BOOKMARK [1][-]{section.7.8}{Signal and background modelling}{chapter.7}% 61
+\BOOKMARK [1][-]{section.7.9}{Systematic Uncertainties}{chapter.7}% 62
+\BOOKMARK [2][-]{subsection.7.9.1}{Higgs Signal Simulation}{section.7.9}% 63
+\BOOKMARK [2][-]{subsection.7.9.2}{ZZ Simulation}{section.7.9}% 64
+\BOOKMARK [2][-]{subsection.7.9.3}{Systematic Uncertainties on Reducible Backgrounds}{section.7.9}% 65
+\BOOKMARK [2][-]{subsection.7.9.4}{Global Uncertainties in MC-driven estimates}{section.7.9}% 66
+\BOOKMARK [1][-]{section.7.10}{Summary}{chapter.7}% 67
+\BOOKMARK [0][-]{chapter.8}{Results}{}% 68
+\BOOKMARK [1][-]{section.8.1}{Standard Model ZZ Production}{chapter.8}% 69
+\BOOKMARK [2][-]{subsection.8.1.1}{Cross section measurement}{section.8.1}% 70
+\BOOKMARK [2][-]{subsection.8.1.2}{Unfolding}{section.8.1}% 71
+\BOOKMARK [1][-]{section.8.2}{Search for a Standard Model Higgs Boson}{chapter.8}% 72
+\BOOKMARK [2][-]{subsection.8.2.1}{Statistical Analysis}{section.8.2}% 73
+\BOOKMARK [1][-]{section.8.3}{Limits on anomalous triple gauge couplings}{chapter.8}% 74
+\BOOKMARK [0][-]{chapter.9}{Conclusions}{}% 75
+\BOOKMARK [1][-]{section.9.1}{Summary}{chapter.9}% 76
+\BOOKMARK [1][-]{section.9.2}{Future Outlook}{chapter.9}% 77
+\BOOKMARK [0][-]{section*.9}{Bibliography}{}% 78

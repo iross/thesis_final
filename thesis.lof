@@ -1,0 +1,54 @@
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A quantitative picture of the Higgs potential.}}{9}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Standard Model ZZ production}}{11}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The SM-forbidden ZZZ (or ZZ$\gamma $ coupling.}}{11}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Higgs$\rightarrow $ZZ production.}}{12}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Higgs decays}}{13}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Phenomenological effects of aTGCs on boson and lepton $p_T$.}}{18}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Phenomenological effects of aTGCs on lepton separation.}}{19}{figure.2.7}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The LHC accelerator chain.}}{28}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The amount of intergraled luminosity at the LHC in 2011 and 2012.}}{29}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Isometric view of CMS}}{30}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces A cutaway slice of the CMS detector.}}{30}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The geometry of the CMS tracking system.}}{31}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The geometry of the CMS electromagnetic calorimeter.}}{34}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The geometry of the CMS hadronic calorimeter.}}{37}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The geometry of the CMS muon system.}}{39}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces A schematic drawing of a drift tube chamber.}}{40}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagram of the information flow through the CMS trigger system.}}{43}{figure.4.10}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A comparison of three different PDF sets.}}{47}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrammatic representation of a hadronization process.}}{48}{figure.5.2}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagram of an electron and its signatures}}{55}{figure.6.1}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Ratio of lepton efficiencies between data and monte carlo simulations for electrons and muons.}}{68}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces The effects of pile-up corrections on the rectonstructed vertex distribtion.}}{69}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Leptonic fake rates used for the background estimation.}}{71}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Background estimation region consisting of a \ensuremath {{Z}_0}\xspace plus two failed leptons.}}{72}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Background estimation region consisting of a \ensuremath {{Z}_0}\xspace plus one passed and one failed leptons.}}{73}{figure.7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Background estimation region consisting of a \ensuremath {{Z}_0}\xspace plus two failed leptons, with the high mass requirement.}}{74}{figure.7.6}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Background estimation region consisting of a \ensuremath {{Z}_0}\xspace plus one passed and one failed leptons, with the high mass requirement.}}{75}{figure.7.7}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Diagram depicting the flow of events in the reducible background estimate.}}{76}{figure.7.8}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces A simulated $H\rightarrow 2e2\mu $ ($m_H = 125 GeV$) peak, with and without FSR recovery.}}{78}{figure.7.9}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces The angular definitions in the ZZ rest frame.}}{79}{figure.7.10}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Final selection efficiency, as a function of Higgs mass.}}{82}{figure.7.11}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces ZZ invariant mass for the high-mass analysis, across the full considered $M_{\ell \ell \ell \ell }$ range.}}{89}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Example response matrices used in unfolding.}}{93}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces An example of the effects of unfolding.}}{94}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Unfolded distribution of the highest $p_T$ lepton.}}{95}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Unfolded ZZ kinematic variables.}}{96}{figure.8.5}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Unfolded leading (in $p_T$) Z kinematic variables.}}{97}{figure.8.6}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Unfolded distribution of the Z candidate separation.}}{98}{figure.8.7}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces ZZ invariant mass for the low-mass analysis, across the full considered $M_{\ell \ell \ell \ell }$ range.}}{100}{figure.8.8}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces ZZ invariant mass including the low-mass $ZZ*$ analysis, zoomed to take a closer look at the excess.}}{101}{figure.8.9}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces 95\% CL Upper Limits on Standard Model Higgs production.}}{102}{figure.8.10}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces p-value scan.}}{102}{figure.8.11}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Qualitative likelihood scan of the ($f_4^Z, f_4^{\gamma }$) coupling space, with a signal injected.}}{104}{figure.8.12}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Comparison of the $M_{\ell \ell \ell \ell }$ for Standard Model ZZ production by the LO generator SHERPA and the NLO POWHEG.}}{105}{figure.8.13}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces 2D limits on the neutral anomalous triple gauge couplings.}}{106}{figure.8.14}
+\addvspace {10pt}
